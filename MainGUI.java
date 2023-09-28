@@ -22,7 +22,7 @@ public class MainGUI extends JFrame {
         userAccount = new BankAccount("123456789");
 
         // Set up the JFrame
-        setTitle("Online Banking");
+        setTitle("nowpay");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -217,7 +217,7 @@ public class MainGUI extends JFrame {
                 String password = JOptionPane.showInputDialog("Enter your password:");
 
                 // Validate the user (replace this with your authentication logic)
-                if ("nowpay".equals(username) && "1234".equals(password)) {
+                if ("nowpay".equals("nowpay") && "1234".equals(password)) {
                     isLoggedIn = true;
                     updateBalanceLabel();
                     signInButton.setEnabled(false);
